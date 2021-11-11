@@ -1,0 +1,29 @@
+.about {
+    padding: 5vmin;
+    padding-bottom: 10vw;
+}
+.about .row .col-md-6 .profile img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.about .row .col-md-6:last-child{
+    position: relative;
+}
+.about .row .col-md-6 .panel{
+    position: absolute;
+    border-radius: 3px;
+    text-align: left;
+}
+.about .row .col-md-6 .panel h3 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.about .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: black;
+}
+.h2{
+    text-align: center;
+}

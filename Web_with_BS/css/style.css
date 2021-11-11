@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    width: 100%;
+    height: 41vw;
+}
+.copyright-text{
+    text-align: center;
+}

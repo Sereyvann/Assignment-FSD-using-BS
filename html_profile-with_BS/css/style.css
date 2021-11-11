@@ -1,0 +1,123 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} */
+.header{
+    height: auto;
+    margin: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.adjust-img{
+    height: 500px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 60px;
+    text-align: center;
+}
+
+/* About me styling */
+.about {
+    padding: 20vmin 0vmin;
+  }
+.about .row .col-md-6 .profile img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.about .row .col-md-6:last-child{
+    position: relative;
+}
+.about .row .col-md-6 .panel{
+    /* position: absolute; */
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px;
+}
+.about .row .col-md-6 .panel h3 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.about .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Technology Styling */
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* .card:hover{
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+    transform: scale(1);
+} */
+.tec-logo{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+/* Contact Style */
+.contact{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;    
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 30px;
+}
+.contact-form{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form>input{
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+}
+.copyright-text{
+    text-align: center;
+}
